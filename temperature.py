@@ -18,6 +18,7 @@ pwd= "sirinejrad123"
 @app.route("/login/")
 def login():
     response={"username":username,"pwd":pwd}
+    print(response)
     return response
 
 
